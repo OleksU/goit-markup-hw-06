@@ -61,10 +61,12 @@ body {
   }
   
   .container-header {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 24px;
-    padding-top: 24px;
+    align-items: center;
+    padding-bottom: 16px;
+    padding-top: 16px;
   }
   
   .navigation {
@@ -87,3 +89,24 @@ body {
   .logo-span {
     color: #2e2f42;
   }
+
+  .menu {
+    display: none;
+  }
+
+  .contacts {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    padding: 0;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
