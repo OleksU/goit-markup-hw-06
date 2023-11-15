@@ -538,6 +538,7 @@ align-self: stretch;
     flex-direction: column;
     justify-content: center;
     gap: 72px;
+    min-width: 264px;
     background: #ffffff;
   }
 
@@ -608,4 +609,30 @@ align-self: stretch;
         width: calc((100% - 72px) / 4);
       }
   }
+
+  /* Section4 Mobile */
+
+  .section-portfolio {
+    padding: 96px 16px;
+  }
+
+  .section-portfolio-tittle {
+        margin-bottom: 72px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        text-transform: capitalize;
+        color: #2e2f42;
+        text-align: center;
+      }
+
+      .section-portfolio-list {
+        display: flex;
+        gap: 48px;
+        flex-direction: column;
+      }
   
+      .section-portfolio-item {
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding-bottom: 32px;
+      }
